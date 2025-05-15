@@ -1,0 +1,11 @@
+version: 2
+
+exposures:
+  - name: jaffle_shop_customers
+    type: dashboard
+    maturity: high
+    depends_on:
+      - ref('customers')
+    owner:
+      name: data team
+      email: matt+1@dbtlabs.com
